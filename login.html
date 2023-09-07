@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="icon" href="assets/image/logo_pos.png">
+       <link rel="stylesheet" href="assets/css/style.css">
+       <style>
+              .login-page{
+       width: 100%;
+       height: 100vh;
+       overflow: auto;
+       background-color: #7C53AF;
+
+}
+
+.parent-login{
+       width: 70%;
+       height: 80vh;
+       margin: 80px auto;
+       background-color: #fff;
+       overflow: auto;
+       box-sizing: border-box;
+       border-radius: 30px;
+       -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+       -ms-border-radius: 30px;
+       -o-border-radius: 30px;
+}
+
+   .image-child-login{
+       width: 50%;
+       height: 100%;
+       float: left;
+
+   }
+   .image-login{
+       width: 400px;
+       height: 400px;
+       margin: 50px auto;
+   }
+   .pos-login{
+       display: flex;
+       align-items: center;
+       margin-left: 15%;
+       margin-top: 50px;
+   }
+   .pos-login h2{
+       margin-left: 10px;
+       font-size: 40px;
+   }
+   .pos-login a{
+       text-decoration: none;
+   }
+   .content-child-login{
+       width: 50%;
+       height: 100%;
+       float: right;
+ 
+   }
+   .login-form{
+
+       width: 95%;
+       height: 60%;
+       margin-top: 25%;
+       margin-left: 20px;
+   }
+   .content-child-login p{
+
+       margin-top: 46px;
+       font-size: 40px;
+       color: #7C53AF;
+       text-align: left;
+       margin-bottom: 20px;
+   }
+   /* .input-login {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+    */
+   .input-login input {
+       width: 80%;
+       height: 75px;
+       border-radius: 5px;
+       font-size: 20px;
+       padding-left: 20px;
+  
+       margin-bottom: 20px;
+       border: 1px solid rgba(0, 0, 0, 0.50);
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+   } 
+  .content-child-login button{
+       margin-top: 30px;
+       width: 80%;
+       height: 50px;
+       color: white;
+       background-color: #593FA2;
+       font-size: 20px;
+       text-decoration: none;
+       cursor: pointer;
+       border-radius: 5px;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+       /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+       */
+}
+       </style>
+ 
+       <title>Login Page</title>
+</head>
+<body>
+       <main>
+              <section class="login-page">
+                     <div class="parent-login">
+                            <div class="image-child-login">
+                                   <div class="pos-login" >
+                                          <img src="assets/image/logo_pos.png" alt="">
+                                          <h2 ><a href="">POS</a></h2>
+                                      </div>
+                                   <div class="image-login">
+                                          <img src="assets/image/image_13-removebg-preview.png" alt="" width="100% "  height="100%">
+                                   </div>
+                            </div>
+                            <div class="content-child-login">
+                               <div class="login-form">
+
+                                      <p>Selamat Datang</p>
+                                      <form action="">
+                                             <div class="input-login">
+                                                    <input type="text" name="" id="" placeholder=" Email" class="input-two">
+                                             </div>
+                                             <div class="input-login">
+                                                    <input type="text" name="" id="" placeholder="Password" class="input-two" >
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style=" right: 8%; position:relative; top: 12; transform: translateY(-50%);">
+                                                        <path d="M12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9ZM12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17ZM12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5C17 19.5 21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5Z" fill="black" fill-opacity="0.5"/>
+                                                    </svg>
+                                             </div>
+                                             <span style="color: #7C53AF; margin-left: 340px; ">Lupa Password?</span>
+                                             <button type="submit" class="btn-login">Login</button>
+                                      </form>
+                               </div>
+                               </div>
+                     </div>
+                     <footer>
+                            <h2 class="title-sponsor" style="color: white;">Dibawah naungan:</h2>
+                            <div class="sponsor" style="margin-top: 10px;">
+                                   <img src="assets/image/Ellipse_32-removebg-preview.png" alt="">
+                                   <h2 style="color: white; margin-left: 5px;  ">SMK Prakarya Internasional</h2>
+                            </div>
+                     </footer>
+              </section>
+       </main>
+</body>
+</html>
